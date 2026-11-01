@@ -9,8 +9,9 @@ Xept 是一个用 AI 写论文的桌面应用：LaTeX 和 Word 都能写，AI �
 | 你的电脑 | 下载 |
 |---|---|
 | Mac，Apple 芯片（M1–M4） | `Xept-版本号-mac-arm64.dmg` |
-| Mac，Intel 芯片 | `Xept-版本号-mac-x64.dmg` |
 | Windows 10 / 11（64 位） | `Xept-版本号-win-x64-setup.exe` |
+
+从 0.4.0 起只提供 Apple 芯片的 Mac 版。Intel 芯片的 Mac 请继续用 0.3.1（在 Releases 里找 v0.3.1 的 `Xept-0.3.1-mac-x64.dmg`）。
 
 不知道 Mac 是哪种芯片：点左上角苹果菜单 →「关于本机」，「芯片」写 Apple M… 就是 Apple 芯片，写 Intel 就是 Intel。
 
