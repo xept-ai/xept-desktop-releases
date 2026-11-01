@@ -10,6 +10,8 @@ Xept 是一个用 AI 写论文的桌面应用：LaTeX 和 Word 都能写，AI �
 |---|---|
 | Mac，Apple 芯片（M1–M4） | `Xept-版本号-mac-arm64.dmg` |
 | Windows 10 / 11（64 位） | `Xept-版本号-win-x64-setup.exe` |
+| Linux（64 位），各发行版通用 | `Xept-版本号-linux-x86_64.AppImage` |
+| Ubuntu / Debian（64 位） | `Xept-版本号-linux-amd64.deb` |
 
 从 0.4.0 起只提供 Apple 芯片的 Mac 版。Intel 芯片的 Mac 请继续用 0.3.1（在 Releases 里找 v0.3.1 的 `Xept-0.3.1-mac-x64.dmg`）。
 
@@ -17,7 +19,7 @@ Xept 是一个用 AI 写论文的桌面应用：LaTeX 和 Word 都能写，AI �
 
 ## 安装
 
-测试版还没有签名，第一次打开系统会拦一下：
+测试版还没有签名，第一次打开 Mac 和 Windows 会拦一下：
 
 **Mac**
 1. 双击 dmg，把 **Xept** 拖进「应用程序」。
@@ -26,6 +28,11 @@ Xept 是一个用 AI 写论文的桌面应用：LaTeX 和 Word 都能写，AI �
 **Windows**
 1. 双击 `setup.exe`。如果出现「Windows 已保护你的电脑」，点「更多信息」→「仍要运行」。
 2. 按提示安装，默认只装给当前用户，不需要管理员权限。
+
+**Linux**
+- AppImage：先在终端运行 `chmod +x Xept-版本号-linux-x86_64.AppImage`，再双击或在终端运行它。
+- Ubuntu / Debian 也可以用 deb：`sudo apt install ./Xept-版本号-linux-amd64.deb`。
+- Linux 版暂不自动更新，有新版本时 Xept 会提示，到这里下载新的安装包。
 
 打开后在「设置」里填上你的 AI 账号（Claude、ChatGPT、DeepSeek、Kimi、智谱 GLM 都可以）。第一次打开时系统可能会问 Xept 能不能访问钥匙串（加密保存 AI 账号）、桌面或文稿文件夹（打开放在那里的论文时），都点「允许」。
 
