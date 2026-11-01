@@ -34,6 +34,7 @@ Xept 是一个用 AI 写论文的桌面应用：LaTeX 和 Word 都能写，AI �
 **Windows**
 1. 双击 `setup.exe`。如果出现「Windows 已保护你的电脑」，点「更多信息」→「仍要运行」。
 2. 按提示安装，默认只装给当前用户，不需要管理员权限。
+3. 写 Word 论文的话，建议装 **WPS（免费）** 或 **Microsoft Word** 来看文档。系统自带的写字板显示不全（表格、脚注、批注、修订），AI 改完也不能直接刷新。
 
 **Linux**
 - AppImage：先在终端运行 `chmod +x Xept-版本号-linux-x86_64.AppImage`，再双击或在终端运行它。
